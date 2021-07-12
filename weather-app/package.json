@@ -1,5 +1,5 @@
 {
-  "name": "node_express-wheather_app",
+  "name": "weather_app",
   "version": "1.0.0",
   "description": "this is wheather app",
   "main": "index.js",
