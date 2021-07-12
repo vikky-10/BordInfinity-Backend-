@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        background-color: rgb(193, 214, 206);
+      }
+      .alert {
+        padding: 20px;
+        background-color: #f44336;
+        color: white;
+        opacity: 1;
+        transition: opacity 0.6s;
+        margin-bottom: 15px;
+        width: 80vw;
+        text-align: center;
+        margin: auto;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        position: absolute;
+        top: 150px;
+        right: 100px;
+      }
+      .credentials {
+        background-color: #fff;
+        border: 5px dashed lightgreen;
+        text-align: center;
+        position: relative;
+        top: 300px;
+        margin: auto;
+        width: 60vw;
+      }
+      .alert.success {
+        background-color: #04aa6d;
+      }
+      .success {
+        display: block;
+        font-size: 2rem;
+      }
+      h1 {
+        font-weight: 400;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="success" class="alert success">
+      <span class="closebtn">&times;</span>
+      <strong>Success!</strong> you are successful Login with.....
+    </div>
+    <div class="credentials">
+      <h1 class="username"><strong>Username: </strong>voldemort</h1>
+      <h1 class="username"><strong>Password: </strong>vol123</h1>
+    </div>
+
+    <script>
+      const suc = document.getElementById("success");
+      //   (function () {
+      //     setTimeout(function () {
+      //       suc.style.display = "none";
+      //       suc.style.opacity = 0;
+      //     }, 3000);
+      //   })();
+    </script>
+  </body>
+</html>
