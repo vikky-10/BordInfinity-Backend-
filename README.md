@@ -15,6 +15,6 @@
 
 
 # URL-SHORTNER 🔗🔗🔗
-## Hackathon <MindHack Backend>
+## Hackathon  MindHack Backend
 
 #[👉(https://urlshortnerap.herokuapp.com/)]
